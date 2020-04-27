@@ -1,8 +1,11 @@
 import React from 'react';
+//components
+import CreateAccountForm from "../components/CreateAccountForm";
 
-function CreateAccount() {
+function CreateAccount({CreateAccountFunction}) {
     return <div>
         <h1>Create Account</h1>
+        <CreateAccountForm CreateAccountFunction={CreateAccountFunction}/>
     </div>;
 }
 
