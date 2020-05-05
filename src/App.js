@@ -93,7 +93,7 @@ function App() {
   //create account
   function CreateAccountFunction(e) {
     e.preventDefault(); //prevents form from submitting as default form
-    console.log("form payload", e);
+    //console.log("form payload", e);
     let email = e.currentTarget.createEmail.value;
     let password = e.currentTarget.createPassword.value;
     // console.log('email', email);
